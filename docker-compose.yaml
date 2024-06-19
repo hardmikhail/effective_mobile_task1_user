@@ -1,0 +1,10 @@
+services:
+  db-crm:
+    restart: always
+    image: postgres:16-alpine
+    container_name: effective_mobile_task1_user
+    env_file:
+      - path: .env
+        required: true
+    ports:
+      - '${POSTGRES_PORT}:5432'
