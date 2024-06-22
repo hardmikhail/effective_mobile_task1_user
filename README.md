@@ -6,6 +6,8 @@
 
 Создание `.env` файла с параметрами указанными в `.env.example`
 
+`npm run typeorm:migration:run`
+
 `npm run start`
 
 Запуск сервиса `event` уведомлений о изменении позльзователей
